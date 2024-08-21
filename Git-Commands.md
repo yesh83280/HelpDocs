@@ -1,10 +1,7 @@
 # Git Commands
 
 ### GIT SSH Setup:
-1. Commands:
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-<ENTER>
-<PASSWORD>
+1. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 2. eval "$(ssh-agent -s)"
 3. ssh-add ~/.ssh/id_ed25519
 
