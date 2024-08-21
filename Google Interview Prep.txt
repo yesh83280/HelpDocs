@@ -1,0 +1,12 @@
+Google Interview Prep 
+
+1. Cover pattern videos - Mainly heap, graph related - Tree, Graph, Heap, Dynamic Programming in Java 
+2. Look at solutions for all Blind 75 - If possible for entire 150
+3. Practice coding in Google Docs
+    1. Try getting inputs for various scenarios
+    2. Checkout writing functions & calling them from main
+4. Check intro & what to tell for roles & responsibilities
+5. 
+
+1. Googleyness round - Managerial interview
+2. 
