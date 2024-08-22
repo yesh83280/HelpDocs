@@ -20,8 +20,8 @@
 1. git commit --allow-empty -m "Empty-Commit"
 
 ### Remote Revert Back 
-1. git reset --hard <commit-hash>
-2. git push -f origin <remote-branch>
+1. git reset --hard commit-hash
+2. git push -f origin remote-branch
 
 ### Reset latest commit in local 
 1. git reset HEAD~1
@@ -40,8 +40,8 @@
 3. git push -u origin development - Push newer branch to remote
 
 ### Git Delete remote branch
-1. git push -d <remote_name> <branchname>
-2. git branch -d <branchname>
+1. git push -d remote_name branchname
+2. git branch -d branchname
 
 ### Git copy file version from another branch
 1. git checkout otherbranchname myfile.txt
