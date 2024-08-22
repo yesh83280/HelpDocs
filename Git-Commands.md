@@ -42,3 +42,6 @@
 ### Git Delete remote branch
 1. git push -d <remote_name> <branchname>
 2. git branch -d <branchname>
+
+### Git copy file version from another branch
+1. git checkout otherbranchname myfile.txt
