@@ -1,10 +1,7 @@
 # Git Commands
 
 ### GIT SSH Setup:
-1. Commands:
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-<ENTER>
-<PASSWORD>
+1. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 2. eval "$(ssh-agent -s)"
 3. ssh-add ~/.ssh/id_ed25519
 
@@ -23,8 +20,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 1. git commit --allow-empty -m "Empty-Commit"
 
 ### Remote Revert Back 
-1. git reset --hard <commit-hash>
-2. git push -f origin <remote-branch>
+1. git reset --hard commit-hash
+2. git push -f origin remote-branch
 
 ### Reset latest commit in local 
 1. git reset HEAD~1
@@ -43,5 +40,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 3. git push -u origin development - Push newer branch to remote
 
 ### Git Delete remote branch
-1. git push -d <remote_name> <branchname>
-2. git branch -d <branchname>
+1. git push -d remote_name branchname
+2. git branch -d branchname
+
+### Git copy file version from another branch
+1. git checkout otherbranchname myfile.txt
