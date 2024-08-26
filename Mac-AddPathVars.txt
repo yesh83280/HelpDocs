@@ -1,0 +1,11 @@
+Mac - Steps to add PATH Variable
+
+
+1. nano ~/.zshrc
+2. export PATH="$PATH:/Users/ponnuriyeswanth/.local/bin"
+
+
+nano ~/.zshrc
+nano ~/.bashrc
+nano ~/.bashprofile
+nano ~/.zprofile

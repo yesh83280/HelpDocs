@@ -1,0 +1,12 @@
+MVN Generate Jar
+
+mvn install:install-file \
+   -Dfile=/Users/ponnuriyeswanth/Downloads/bpjtk-v3.0.6.0/bpjtk-v3.0.6.0.jar \
+   -DgroupId=com.ibm.bluepages \
+   -DartifactId=bpjtk \
+   -Dversion=3.0.6 \
+   -Dpackaging=jar \
+   -DgeneratePom=true
+
+
+mvn deploy:deploy-file -Dfile=/Users/suryan0800/Downloads/bptk/bpjtk-v3.0.6.0.jar -DgroupId=com.ibm.bluepages -DartifactId=bpjtk -Dversion=3.0 -Dpackaging=jar -DgeneratePom=true -Durl=file:./ITMLibs/ -DrepositoryId=ITMLibs -DupdateReleaseInfo=true
