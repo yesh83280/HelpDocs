@@ -98,7 +98,7 @@ I'm looking for a position that offers me greater opportunities for professional
     4. Row Number, Rank, Dense Rank
     5. Offset, Limit, Second highest salary
 8. Docker & Kubernetes
-9. Data Structures - Roadmap - [here](https://www.geeksforgeeks.org/complete-roadmap-to-learn-dsa-from-scratch/)
+9. Data Structures - Roadmap - [Preference 1](https://www.techinterviewhandbook.org/coding-interview-study-plan/), [Prference 2](https://www.geeksforgeeks.org/complete-roadmap-to-learn-dsa-from-scratch/)
     1. Linked List - Singly, Doubly - Head, Tail, Prev, Next, Value
     2. Stack - LIFO, DFS, Bracket Sequence - Push, Pop, Peek
     3. Queue  - FIFO, BFS (get all neighbours) - Enqueue, Dequeue, Peek 
